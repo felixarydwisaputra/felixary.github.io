@@ -86,6 +86,15 @@ html {
   font-size: 6rem;
 }
 
+.card {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
 #gallery img {
   width: 290px;
 }
