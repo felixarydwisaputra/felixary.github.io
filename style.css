@@ -46,6 +46,14 @@ html {
   margin-left: 10px;
 }
 
+#awal .produk {
+  transition: 0.3s;
+}
+
+#awal .produk:hover {
+  transform: scale(1.1);
+}
+
 #about {
   background-color: #273036;
   min-height: 400px;
@@ -133,6 +141,10 @@ html {
     display: flex;
   }
 
+  #menu .col-lg-3 {
+    padding: 20px 70px;
+  }
+
   #about .hilang {
     display: none;
   }
@@ -143,5 +155,9 @@ html {
 
   #navbar .navbar-nav {
     margin-top: 20px;
+  }
+
+  #penutup h1 {
+    font-size: 1.3em;
   }
 }
